@@ -4,7 +4,7 @@ All models need to return a CSP object, and a list of lists of Variable objects
 representing the board. The returned list of lists is used to access the 
 solution. 
 
-For example, after these three lines of code
+For example, after these three lines of code 
 
     csp, var_array = futoshiki_csp_model_1(board)
     solver = BT(csp)

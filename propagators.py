@@ -1,5 +1,5 @@
 '''This file will contain different constraint propagators to be used within 
-   bt_search.
+   bt_search. 
 
    propagator == a function with the following template
       propagator(csp, newly_instantiated_variable=None)

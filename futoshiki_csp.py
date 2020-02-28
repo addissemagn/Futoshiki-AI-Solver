@@ -23,7 +23,7 @@ cell of the Futoshiki puzzle.
 
 '''
 from cspbase import *
-import itertools
+import itertools 
 
 def futoshiki_csp_model_1(futo_grid):    
     n = len(futo_grid)
